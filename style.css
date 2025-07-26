@@ -1,0 +1,19 @@
+ /* <!-- UI Stylying and Dark Mode--> */
+
+body.dark {
+  background: #121212;
+  color: #e4e4e4;
+}
+body.dark .card {
+  background: #1e1e1e;
+  border-color: #333;
+}
+#tasks .list-group-item.dragging {
+  opacity: 0.5;
+}
+#notifDot {
+  width:12px; height:12px; background:red; border-radius:50%;
+  margin-left:6px; display:inline-block; visibility:hidden;
+}
+
+ 
